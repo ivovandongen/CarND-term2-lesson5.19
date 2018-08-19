@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(TEMPLATE)
+project(CarND_term2_lesson5_19)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -12,8 +12,8 @@ endif()
 
 
 
-add_executable(Template
+add_executable(Jacobian
     ${CMAKE_SOURCE_DIR}/src/main.cpp
 )
 
-target_link_libraries(Template Eigen)
+target_link_libraries(Jacobian Eigen)
